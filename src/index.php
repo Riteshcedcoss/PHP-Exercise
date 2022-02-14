@@ -8,7 +8,11 @@
  $x=15;  
 $y=30;  
 $z=$x+$y;  
-echo "Sum: ",$z;  
+echo "Sum: ",$z."<br>";  
+//third
+$var_1 = "Hello Ced_Commerce";
+$var_2 = "Have a nice day!";
+echo $var_1." ". $var_2;
 
 ?>
 <!DOCTYPE html>
