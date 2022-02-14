@@ -29,6 +29,9 @@ else if($marks<33 && $marks<44)
 else{
     echo "fail";
 }
+//fifth
+$message = "Welcome to the PHP World";
+echo $message;
 ?>
 <!DOCTYPE html>
 <html lang="en">
