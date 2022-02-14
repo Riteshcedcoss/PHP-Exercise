@@ -58,8 +58,16 @@ switch ($day) {
         echo "It is Sunday!";
         break;
     default:
-        echo "Invalid number!";
+        echo "Invalid number!"."<br>";
 }
+//seven
+$num = 4;  
+$factorial = 1;  
+for ($x=$num; $x>=1; $x--)   
+{  
+  $factorial = $factorial * $x;  
+}  
+echo "Factorial of $num is $factorial";  
 ?>
 <!DOCTYPE html>
 <html lang="en">
