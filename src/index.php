@@ -1,8 +1,15 @@
 <?php
+//first
  for($i=5;$i<=15;$i++){
      echo $i;
      echo "<br>";
  }
+ //second
+ $x=15;  
+$y=30;  
+$z=$x+$y;  
+echo "Sum: ",$z;  
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
