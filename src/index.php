@@ -13,7 +13,22 @@ echo "Sum: ",$z."<br>";
 $var_1 = "Hello Ced_Commerce";
 $var_2 = "Have a nice day!";
 echo $var_1." ". $var_2;
-
+//fourth
+$marks=100;
+if($marks>=60){
+echo "First Division";
+}
+else if($marks<45 && $marks<59)
+{
+    echo "Second Divison";
+}
+else if($marks<33 && $marks<44)
+{
+    echo "Third Divison";
+}
+else{
+    echo "fail";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
